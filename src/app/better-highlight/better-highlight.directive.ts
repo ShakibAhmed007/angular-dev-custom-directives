@@ -33,7 +33,7 @@ export class BetterHighLightDirective implements OnInit {
     //   "blue"
     // );
 
-    /* Without Renderer */
+    /* Without Renderer, using HostBinding */
     this.backgroundColor = "blue";
   }
 
@@ -45,7 +45,7 @@ export class BetterHighLightDirective implements OnInit {
     //   "transparent"
     // );
 
-    /* Without Renderer */
+    /* Without Renderer,  using HostBinding */
     this.backgroundColor = "transparent";
   }
 }
