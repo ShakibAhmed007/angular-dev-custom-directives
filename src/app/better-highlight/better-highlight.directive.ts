@@ -14,7 +14,7 @@ import {
 export class BetterHighLightDirective implements OnInit {
   @HostBinding("style.backgroundColor") backgroundColor: string = "transparent";
 
-  /* We can use prpperty binding in directives */
+  /* We can use property binding in directives */
   @Input() defaultColor: string;
   @Input() hightlightColor: string;
 
