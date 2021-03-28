@@ -24,6 +24,7 @@ export class BetterHighLightDirective implements OnInit {
   */
 
   @HostListener("mouseenter") mouseenter(eventData: Event) {
+    console.log(eventData);
     this.renderer.setStyle(
       this.elementRef.nativeElement,
       "background-color",
@@ -32,6 +33,7 @@ export class BetterHighLightDirective implements OnInit {
   }
 
   @HostListener("mouseleave") mouseleave(eventData: Event) {
+    console.log(eventData);
     this.renderer.setStyle(
       this.elementRef.nativeElement,
       "background-color",
