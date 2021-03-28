@@ -12,7 +12,9 @@ import {
 })
 export class BetterHighLightDirective implements OnInit {
   @HostBinding("style.backgroundColor") backgroundColor: string = "transparent";
+
   constructor(private renderer: Renderer2, private elementRef: ElementRef) {}
+
   ngOnInit() {
     // this.renderer.setStyle(
     //   this.elementRef.nativeElement,
